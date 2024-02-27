@@ -1,4 +1,4 @@
-from trtrr import shorten
+from ..trtrr import shorten
 
 def test_shorten():
     assert shorten("My Uncle John was an avid fisherman, one who loved to share his passion with anyone willing to join him. However, he wasn't exactly known for being a natural talent in the sport. One memorable fishing trip comes to mind when I joined him at the lake. John, fully equipped with his trusty fishing hat and rod, managed to cast his line further than he'd ever achieved before – only to hook his own hat, which he didn't realize until he reeled it in with pride. We all had a good chuckle, and I'm sure he's already planning a fishing trip in the great beyond, complete with the same lucky hat.") == "My ncl Jhn ws n vd fshrmn, n wh lvd t shr hs pssn wth nyn wllng t jn hm. Hwvr, h wsn't xctly knwn fr bng  ntrl tlnt n th sprt. n mmrbl fshng trp cms t mnd whn  jnd hm t th lk. Jhn, flly qppd wth hs trsty fshng ht nd rd, mngd t cst hs ln frthr thn h'd vr chvd bfr – nly t hk hs wn ht, whch h ddn't rlz ntl h rld t n wth prd. W ll hd  gd chckl, nd 'm sr h's lrdy plnnng  fshng trp n th grt bynd, cmplt wth th sm lcky ht."
