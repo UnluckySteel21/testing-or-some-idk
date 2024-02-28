@@ -1,4 +1,4 @@
-from ..fuel import gauge, convert
+from fuel import gauge, convert
 import pytest
 
 def test_exception_causes():
